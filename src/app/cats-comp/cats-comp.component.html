@@ -1,0 +1,20 @@
+<h1 class="d-grid gap-2 col-6 mx-auto" >Cat </h1>
+<br>
+<table class="d-grid gap-2 col-6 mx-auto" class="table table-dark table-hover">
+    <thead>
+        <tr>
+            <th scope="col"> # </th>
+            <th scope="col"> facts </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let c of cats , let i = index">
+            <td>{{i+1}}</td>
+            <td>{{c.text}}</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<button  class="d-grid gap-2 col-6 mx-auto" routerLink=""> Back To The Menu</button>
+<br>
+
