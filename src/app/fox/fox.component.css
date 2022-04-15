@@ -1,0 +1,15 @@
+#title{
+    font-style: oblique;
+    font-size: xx-large;
+    font-weight: 700;
+    color: deeppink;
+}
+
+#img{
+    border:dashed   10px rgb(0, 174, 180);
+}
+
+#btn{
+ font-style: initial;
+ color: rgb(139, 22, 150);
+}

@@ -1,6 +1,6 @@
-<h1>Dog </h1>
-<img *ngIf="SeeUnSee"   class="img-thumbnail" height="100" width="100" src="{{dog.message}}" alt=""> <br>
-<button  (click)="dogToggle()"> img  Click Here To See A Dog  </button>
+  <h1 > <span  class="d-grid gap-2 col-6 mx-auto">Dog 🐶</span> </h1>
+<img  id="dog"  class="img-fluid" *ngIf="SeeUnSee"  class="d-grid gap-2 col-6 mx-auto"  src="{{dog.message}}" alt=""> <br>
+<button id="btn1" class="d-grid gap-2 col-6 mx-auto" (click)="dogToggle()"> <span style="color: rgb(51, 149, 247);">Click Here To See A Dog</span></button>
 <br>
-<button  class="d-grid gap-2 col-6 mx-auto" routerLink=""> Back To The Menu</button>
+<button  class="d-grid gap-2 col-6 mx-auto"  id="btn2"  routerLink=""><span style="color: rgb(51, 149, 247);">Back To The Menu</span></button>
 <br>

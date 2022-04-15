@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgModel } from '@angular/forms';
 import { DogServiceService } from '../dog-service.service';
 
 @Component({
@@ -20,7 +21,7 @@ export class DogCompComponent implements OnInit {
   ngOnInit(): void {
   }
   dogToggle(){
-    this.SeeUnSee = !this.SeeUnSee
+    this.SeeUnSee = !this.SeeUnSee 
   }
 
 }
